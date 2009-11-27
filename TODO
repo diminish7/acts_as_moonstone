@@ -1,0 +1,7 @@
+1. Implement the indexing API in-process
+2. Implement the indexing API for REST service
+3. Implement the hooks for auto-updating the index
+4. Implement the search API in-process
+5. Implement the search API for REST service
+6. Implement multi-class search
+7. Implement some sort of incremental indexing (accept an ID or something, and index all things greater than that?)
