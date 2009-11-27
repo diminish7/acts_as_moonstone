@@ -3,5 +3,8 @@ ActsAsMoonstone
 
 Acts as Moonstone - A JRuby on Rails plugin for indexing and searching ActiveRecord objects with Moonstone
 
+Dependencies
+============
+Moonstone (gem install moonstone)
 
 Copyright (c) 2009 Jason Rush and Jay Donnell, released under the MIT license
