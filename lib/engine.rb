@@ -9,13 +9,12 @@ module Acts
         doc = Lucene::Document::Doc.new
         record.indexables.each do |indexable|
           value = record.send(indexable)
-          puts "#{indexable} (#{indexable.class}) --> #{value} (#{value.class})"
           doc.add_field(indexable.to_s, value.to_s) unless value.nil?
         end
         doc.add_field("class", record.class.to_s)
         doc
       end
-      
+            
     end
   end
 end

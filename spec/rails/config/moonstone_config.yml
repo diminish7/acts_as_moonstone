@@ -1,3 +1,2 @@
 runs_as_service: false
 index_manually: false
-path_to_index: '../index'
